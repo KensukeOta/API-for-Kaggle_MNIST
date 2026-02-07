@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.128.3",
+    "numpy<2",
+    "torch==2.2.2",
+    "torchvision==0.17.2",
 ]
 
 [dependency-groups]
